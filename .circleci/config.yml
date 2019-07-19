@@ -9,20 +9,17 @@ jobs:
       - run:
           name: Greeting
           command: echo "Hello, world."
-      - run:
-          name: Print the Current Time
-          command: date
       - run: sleep 25
-   two:
-     docker:
-       - image: debian:stretch
+  two:
+    docker:
+      - image: debian:stretch
 
-     steps:
-       - checkout
-       - run:
-           name: Kewl Greeting
-           command: echo "Sup lil butt!"
-       - run: sleep 15
+    steps:
+      - checkout
+      - run:
+          name: Greeting
+          command: echo "Hello my fren."
+      - run: sleep 25
 workflow:
   version: 2
   one_and_two:
