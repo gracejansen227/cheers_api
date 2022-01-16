@@ -1,0 +1,22 @@
+{
+  "name": "cheers_api",
+  "version": "1.0.0",
+  "description": "API layer for cheers application",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gracejansen227/cheers_api.git"
+  },
+  "author": "Grace Jansen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gracejansen227/cheers_api/issues"
+  },
+  "homepage": "https://github.com/gracejansen227/cheers_api#readme",
+  "dependencies": {
+    "@hapi/hapi": "^18.3.1",
+    "axios": "^0.19.0",
+    "node": "^12.6.0"
+  }
+}
